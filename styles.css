@@ -45,10 +45,12 @@ input{
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 10px;
-	margin-bottom: 10px;
 	width: 100%;
 }
-.login {
+.right form input {
+    margin-bottom: 10px; /* Space between input fields */
+}
+button[type="submit"] {
 	background-color: #1877f2;
 	color: white;
     border: none;
@@ -58,8 +60,10 @@ input{
 	cursor: pointer;
 }
 a {
+	align-self: flex-start;
 	color: #1877f2;
     text-decoration: none;
+	margin-top: 10px;
 }
 .signup {
 	text-align: center;
